@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* alinmadi root -la */
+
+
+:root main {
+    --mainshrift: 'Open Sans', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+header {
+    /* background-image: url(https://wallpaperaccess.com/full/3200184.jpg);
+     */
+    background-image: url(https://images.unsplash.com/photo-1508194261197-0a0e8699867d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eSUyMG5pZ2h0JTIwc2t5fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    /* background-color: darkslategray; */
+    padding-bottom: 205px;
+    background-size: cover;
+}
+
+
+header #travel {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#travel a {
+    width: 24px;
+    height: 3px;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    ;
+    text-align: center;
+    margin: 216px auto 40px auto;
+}
+
+header form {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+header form input {
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+header form input ::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+header form button {
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border: none;
+
+
+}
+
+#destination {
+    background-color: #eeee;
+    /* padding: 200px; */
+    padding: 60px 0;
+}
+
+#destination nav h1 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: right; */
+}
+
+#destination nav h2 {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: right; */
+    margin-bottom: 38px;
+}
+
+#america article img {
+    width: 240px;
+    height: 200px;
+}
+
+#america article div {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    background-color: #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: #e1dfd8;
+
+}
+
+#america article div h1 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0 20px 20px;
+
+
+}
+
+#america article div p {
+    width: 204px;
+    height: 75px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #696969;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+
+#america {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section 2  #Contact  */
+#contact {
+    background-color: #ffffff;
+}
+
+#contact h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #323232;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 70px;
+}
+
+#contact .visa div {
+    width: 300px;
+}
+
+#contact .visa h1 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact .visa p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact .visa {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact h2 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 78px;
+}
+
+#contact form input {
+    width: 326px;
+    height: 40px;
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+}
+
+#contact form input ::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#contact form button {
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border: none;
+}
+
+#contact form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+
+footer {
+    background-color: #eeeeee;
+}
+
+footer nav a {
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 33px 0;
+}
+footer nav{
+    display: flex;
+    justify-content: right;
+
+    
+}
